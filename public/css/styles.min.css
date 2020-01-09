@@ -1,0 +1,148 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:600.css);
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* General styles */
+.clearfix___1yHqr {
+  zoom: 1;
+}
+.clearfix___1yHqr:after {
+  clear: both;
+  content: ' ';
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+.ss-terms___dMEZ6 {
+  margin: 40px auto auto auto;
+  max-width: 450px;
+}
+.meta___3gcNx {
+  color: #333;
+  font-size: 13px;
+  line-height: 16px;
+  padding: 0 10px 40px 10px;
+}
+.clear_both___a0DL_ {
+  clear: both;
+}
+.hidden___1aMNf {
+  display: none;
+}
+.nowrap___2n1o8 {
+  white-space: nowrap;
+}
+.app___2khK2 {
+  background-color: #222;
+}
+.app___2khK2 .months_container___2qJiG {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 10px;
+}
+.app___2khK2 .months_container___2qJiG .month_container___1Uft5 {
+  color: #666;
+  display: inline-block;
+  font-family: Source Code Pro;
+  margin: 0 2px;
+}
+.app___2khK2 .maps_wrapper___18oZr {
+  display: flex;
+  min-height: 100vh;
+}
+.app___2khK2 .maps_wrapper___18oZr .maps_container___3_Hcb {
+  display: block;
+  margin: auto auto;
+  max-width: 800px;
+  text-align: center;
+  vertical-align: middle;
+}
+.app___2khK2 .maps_wrapper___18oZr .maps_container___3_Hcb .map_container___22zRx {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+}
+.app___2khK2 .maps_wrapper___18oZr .maps_container___3_Hcb .map_container___22zRx .year___z7c-F {
+  color: #222;
+  font-family: Source Code Pro;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: -16px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 100%;
+}
+.app___2khK2 .maps_wrapper___18oZr .maps_container___3_Hcb .map_container___22zRx .map___1UmDG {
+  display: block;
+}
+.app___2khK2 .maps_wrapper___18oZr .year_map_container___1Df5d {
+  cursor: pointer;
+  display: none;
+  margin: auto auto;
+  max-width: 800px;
+  position: relative;
+  text-align: center;
+  vertical-align: middle;
+}
+.app___2khK2 .maps_wrapper___18oZr .year_map_container___1Df5d .year___z7c-F {
+  color: #222;
+  font-family: Source Code Pro;
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: -50px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 100%;
+}
+.app___2khK2 .maps_wrapper___18oZr .year_map_container___1Df5d .map___1UmDG {
+  display: block;
+}
+

@@ -1,0 +1,72 @@
+@import 'basics.less';
+@import 'reset.css';
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:600.css');
+
+.app {
+  background-color: #222;
+  .months_container {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 10px;
+    .month_container {
+      color: #666;
+      display: inline-block;
+      font-family: Source Code Pro;
+      margin: 0 2px;
+    }
+  }
+  .maps_wrapper {
+    display: flex; 
+    min-height: 100vh;
+    .maps_container {
+      display: block;
+      margin: auto auto;
+      max-width: 800px;
+      text-align: center;
+      vertical-align: middle;
+      .map_container {
+        display: inline-block;
+        position: relative;
+        cursor: pointer;
+        .year {
+          color: #222;
+          font-family: Source Code Pro;
+          font-size: 14px;
+          font-weight: 600;
+          margin-top: -16px;
+          position: absolute;
+          text-align: center;
+          top: 50%;
+          width: 100%;
+        }
+        .map {
+          display: block;
+        }
+      }
+    }
+    .year_map_container {
+      cursor: pointer;
+      display: none;
+      margin: auto auto;
+      max-width: 800px;
+      position: relative;
+      text-align: center;
+      vertical-align: middle;
+      .year {
+        color: #222;
+        font-family: Source Code Pro;
+        font-size: 30px;
+        font-weight: 600;
+        margin-top: -50px;
+        position: absolute;
+        text-align: center;
+        top: 50%;
+        width: 100%;
+      }
+      .map {
+        display: block;
+      }
+    }
+  }
+}
