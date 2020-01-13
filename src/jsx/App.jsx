@@ -18,7 +18,7 @@ const yearStart = 2008,
       yearEnd = 2019,
       scaleMax = 2,
       scaleMin = -2,
-      intervalTimeout = 2000,
+      intervalTimeout = 10000,
       useFireSeason = false;
 
 let monthNames = [],
@@ -148,7 +148,6 @@ class App extends Component {
     }
   }
   setFires() {
-    console.log('all ' + this.state.month_idx)
     const data = this.state.data[fireSeasonIdx[this.state.month_idx]];
     for (let year = yearStart; year <= yearEnd; year++) {
       let context = canvas[year].node().getContext('2d');
@@ -254,7 +253,6 @@ class App extends Component {
     }
   }
   setYearFires() {
-    console.log('year ' + this.state.year_month_idx)
     const data = this.state.data[fireSeasonIdx[this.state.year_month_idx]];
     let context = year_canvas.node().getContext('2d');
     context.fillStyle = 'rgba(226, 34, 34, 0.2)';

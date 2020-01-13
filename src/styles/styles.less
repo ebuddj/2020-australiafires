@@ -11,9 +11,10 @@
     top: 10px;
     .month_container {
       color: #666;
+      font-size: 26px;
       display: inline-block;
       font-family: Source Code Pro;
-      margin: 0 2px;
+      margin: 0 5px;
     }
   }
   .maps_wrapper {
@@ -64,8 +65,16 @@
         top: 50%;
         width: 100%;
       }
-      .map {
+      &:after {
+        content: '';
         display: block;
+        background-color: #eee;
+        height: 4px;
+        left: 50%;
+        position: absolute;
+        top: 48.4%;
+        width: 130px;
+        z-index: 0;
       }
     }
   }
