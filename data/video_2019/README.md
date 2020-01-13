@@ -1,1 +1,0 @@
-ffmpeg -framerate 1 -i %02d.png -c:v libx264 -profile:v high -crf 20 -pix_fmt yuv420p output.mp4
