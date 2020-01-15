@@ -27,6 +27,7 @@ We gathered data from FIRMS of all the detected fires by the MOODS satellite and
 | 2018 | 50,804,030 | 31,071 |
 
 **Links**
+* [News Exchange](https://news-exchange.ebu.ch/item_detail/498aee85af812027f34c12eaa56077d5/2020_21002053)
 * [Social Newswire](https://www.evnsocialnewswire.ch/editors-picks/australia-animation-shows-bushfire-activity-in-australia-from-2008-2019-animation/)
 
 **Sources**
