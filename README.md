@@ -36,6 +36,10 @@ We gathered data from FIRMS of all the detected fires by the MOODS satellite and
 * [Fire Information For Resource Management System](https://firms.modaps.eosdis.nasa.gov)
 * [List of Australian bushfire seasons](https://en.m.wikipedia.org/wiki/List_of_Australian_bushfire_seasons)
 
+**Used by**
+* [CT/Czech on Instagram](https://www.instagram.com/p/B7WPZIoBG6k/)
+* [CT/Czech on Twitter](https://twitter.com/HorizontCT24/status/1217487919960743936)
+
 ## How to use
 
 If you are interested in using the interactive version please contact Teemo Tebest, tebest@ebu.ch
