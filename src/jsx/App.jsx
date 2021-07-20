@@ -74,7 +74,7 @@ class App extends Component {
   componentWillUnMount() {
 
   }
-  loadMapData() {
+  loadMapData() {
     d3.json('./data/australia.json').then(data => {
       this.setState((state, props) => ({
         map_data:data
@@ -86,11 +86,11 @@ class App extends Component {
     return f(value);
   }
   drawMaps() {
-    //  http://bl.ocks.org/micahstubbs/535e57a3a2954a129c13701fe61c681d
+    // http://bl.ocks.org/micahstubbs/535e57a3a2954a129c13701fe61c681d
     const margin = {top: 0, right: 0, bottom: 0, left: 0};
     const width = 200 - margin.left - margin.right;
     const height = 200 - margin.top - margin.bottom;
-    for (let year = yearStart; year <= yearEnd; year++) {
+    for (let year = yearStart; year <= yearEnd; year++) {
       const maps_container = d3.select('.' + style.maps_container);
       const map_container = maps_container.append('div').attr('class', style.map_container).attr('data-year', year);
       let self = this;
@@ -117,7 +117,7 @@ class App extends Component {
     }
     this.toggleInterval();
   }
-  toggleInterval() {
+  toggleInterval() {
     let month_idx = this.state.month_idx;
     if (this.state.interval === true) {
       clearInterval(interval);
@@ -149,7 +149,7 @@ class App extends Component {
   }
   setFires() {
     const data = this.state.data[fireSeasonIdx[this.state.month_idx]];
-    for (let year = yearStart; year <= yearEnd; year++) {
+    for (let year = yearStart; year <= yearEnd; year++) {
       let context = canvas[year].node().getContext('2d');
       context.fillStyle = 'rgba(226, 34, 34, 0.2)';
       if (this.state.month_idx > 6 && data[(year + 1)] && useFireSeason === true) {
@@ -170,7 +170,7 @@ class App extends Component {
       }
     }
   }
-  handleYearMapClick() {
+  handleYearMapClick() {
     clearInterval(year_interval)
     for (let i = 0; i <= this.state.month_idx; i++) {
       d3.select('.' + style.month_container + '_' + i).style('color', '#eee');
@@ -224,7 +224,7 @@ class App extends Component {
       year_month_idx:0
     }), this.toggleYearInterval);
   }
-  toggleYearInterval() {
+  toggleYearInterval() {
     let year_month_idx = this.state.year_month_idx;
     if (this.state.year_interval === true) {
       clearInterval(year_interval);
@@ -252,7 +252,7 @@ class App extends Component {
       }, intervalTimeout);
     }
   }
-  setYearFires() {
+  setYearFires() {
     const data = this.state.data[fireSeasonIdx[this.state.year_month_idx]];
     let context = year_canvas.node().getContext('2d');
     context.fillStyle = 'rgba(226, 34, 34, 0.2)';
